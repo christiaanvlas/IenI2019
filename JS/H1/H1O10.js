@@ -15,5 +15,5 @@ function draw() {
   text("mouseX:" + round(mouseX) + " mouseY:"+round(mouseY),10,20);
   fill('indianred');
   ellipse(mouseX,mouseY,diameter);
-  diameter ++;
+  diameter *=;
 }
