@@ -5,7 +5,7 @@ var schaal = 0.25;
 function setup() {
   canvas = createCanvas(1000,300);
   canvas.parent('processing');
-  frameRate(15);
+    frameRate(12);
   colorMode(RGB,255,255,255,1);
   background(0,0,75,1);
 }
