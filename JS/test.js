@@ -6,11 +6,9 @@ function setup() {
 }
 
 function draw() {
-  noStroke();
-  fill('steelblue');
-  ellipse(225,225,300);
-  fill('deepskyblue');
-  ellipse(225,225,300);
-    fill('blue');
-  rect(125,125,200,200);
+      for (var n = 0;n < 5;n++){
+      ellipse(50,200,100);
+      translate(87.5,0);
+    }
+  
 }
